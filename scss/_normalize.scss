@@ -1,0 +1,66 @@
+body,
+div,
+ul,
+li,
+ol,
+img,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr,
+a,
+i{
+	margin:0;
+	padding:0;
+}
+
+body {
+    background: #e0e0e0;
+    font-family: $font-family;
+    min-width: 397px;
+    font-size: $body-font-size;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clear-float
+{
+    zoom: 1;
+}
+
+.clearfloat:after
+{
+    display: block;
+    visibility: hidden;
+    clear: both;
+
+    height: 0;
+
+    content: '';
+}
+
+h2{
+    font-size: $h2-font-size;
+    font-weight: bold;
+}
+
+h3{
+    font-size: $h3-font-size;
+}
+
+h4{
+    font-size: $h4-font-size;
+}

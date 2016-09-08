@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('../font/iconfont.eot?t=1473323084'); /* IE9*/
+  src: url('../font/iconfont.eot?t=1473323084#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont.woff?t=1473323084') format('woff'), /* chrome, firefox */
+  url('../font/iconfont.ttf?t=1473323084') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font/iconfont.svg?t=1473323084#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "iconfont";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  // text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  // line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  // margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-address2:before { content: "\e616"; }
+.icon-front:before { content: "\e617"; }
+.icon-model2:before { content: "\e618"; }
+.icon-education2:before { content: "\e619"; }
+.icon-write:before { content: "\e61a"; }
+.icon-skill2:before { content: "\e61b"; }
+.icon-study2:before { content: "\e61c"; }
+.icon-photo:before { content: "\e601"; }
+.icon-project:before { content: "\e602"; }
+.icon-book:before { content: "\e603"; }
+.icon-discover:before { content: "\e604"; }
+.icon-douban:before { content: "\e605"; }
+.icon-education:before { content: "\e606"; }
+.icon-email:before { content: "\e607"; }
+.icon-game:before { content: "\e608"; }
+.icon-github:before { content: "\e609"; }
+.icon-link:before { content: "\e60a"; }
+.icon-mobile:before { content: "\e60b"; }
+.icon-model:before { content: "\e60c"; }
+.icon-plane:before { content: "\e60d"; }
+.icon-project1:before { content: "\e60e"; }
+.icon-address:before { content: "\e60f"; }
+.icon-habit:before { content: "\e610"; }
+.icon-reading:before { content: "\e611"; }
+.icon-blog:before { content: "\e612"; }
+.icon-run:before { content: "\e613"; }
+.icon-study:before { content: "\e600"; }
+.icon-zhihu:before { content: "\e614"; }
+.icon-weibo:before { content: "\e615"; }

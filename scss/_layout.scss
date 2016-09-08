@@ -1,0 +1,298 @@
+.public-container,
+.public-header,
+.contact-info,
+.education,
+.researach,
+.front-demo,
+.skill,
+.others,
+.related-links,
+.habits{
+	position: relative;
+}
+
+.contact-wechat__img,
+.related-links__title span,
+.habits-content__title span{
+	position:absolute;
+}
+
+.public-header__person,
+.education-school,
+.contact-info li,
+.skill-web,
+.skill-other,
+.related-links,
+.others-award__left,
+.others-award__right li,
+.others-Certificate-left,
+.others-Certificate-right,
+.habits-content-left,
+.habits-content-right,
+.icon-wechat{
+	float:left;
+}
+
+.others,
+.related-links a,
+.others-award__right{
+	float:right;
+}
+
+
+.public-container{
+	width: 1180px;
+    height: 1654px;
+    background-color: $public-container-bgcolor;
+    margin:20px auto;
+    padding:30px;
+}
+
+.public-header{
+	width:1190px;
+	height:100px;
+	background-color: $public-header-bgcolor;
+	margin:0 auto;
+	color: $public-header-color;
+}
+
+.public-header__person{
+	width:251px;
+	height:100px;
+}
+
+.public-header__person--name{
+	display:inline-block;
+}
+
+.contact-wechat__img{
+	margin:-7px;
+	width:116px;
+	right:60px;
+}
+
+.contact-info li{
+	width:386px;
+	height:50px;
+	margin-right:5px;
+	line-height:50px;
+	font-size: $contact-info-fontize;
+}
+
+
+.public-main{
+	margin-top:18px;
+	line-height: $body-line-height;
+}
+
+.education{
+	height:223px;
+}
+
+hr{
+	margin: $hr-margin;
+	border-top: $hr-border;
+
+}
+
+.education-school{
+	width:590px;
+}
+
+
+.researach-project__title--time{
+	margin-right:20px;
+}
+
+.rssearach-project{
+	margin-buttom:10px;
+}
+
+.researach-project ol{
+	margin-left:182px;
+}
+
+.researach-project li{
+	list-style-type:decimal;
+}
+
+.front-demo{
+	height:300px;
+}
+
+.front-demo__title--name{
+	margin-right:85px;
+}
+
+.front-demo1 ul,
+.front-demo2 ul{
+	margin-left:178px;
+	li{
+		list-style-type: $front-demo-liststyle;
+	}
+}
+
+.skill{
+	margin-buttom:5px;
+	li{
+		list-style-type: $skill-liststyle;
+		margin-left:14px;
+	}
+}
+
+.skill-web,
+.skill-other{
+	width:590px;
+	height:266px;
+}
+
+
+
+.related-links{
+	width:405px;
+	height:296px;
+}
+
+.others{
+	width:695px;
+	height:261px;
+}
+
+.related-links a{
+	margin-right:40px;
+
+}
+
+.others-award{
+	height:54px;
+}
+
+.others-award__left{
+	width:100px;
+}
+
+.others-award__right{
+	width:595px;
+}
+
+.others-award__right li{
+	width:242px;
+	margin-left:10px;
+}
+
+.others-Certificate{
+	height:40px;
+}
+
+.others-Certificate-left{
+	width:100px;
+}
+
+.others-Certificate-right{
+	margin-left:10px;
+	width:585px;
+}
+
+.habits{
+	height:44px;
+}
+
+.habits-content-left{
+	width:129px;
+}
+.related-links__title span,
+.habits-content__title span{
+	top:5px;
+}
+
+
+a{
+	font-size:16px;
+	&:link,
+	&:visited,
+	&:hover,
+	&:active {
+ 	color: #000000;
+	text-decoration:none;
+	}
+}
+
+.icon-wechat{
+	font-size:40px;
+}
+
+.icon-photo{
+	font-size:48px;
+	margin-left:5px;
+}
+
+.icon-education2,
+.icon-study2,
+.icon-front,
+.icon-skill2,
+.icon-model2{
+	width:51px;
+	height:51px;
+	line-height:51px;
+	&:before{
+		font-size:51px;
+		color:#002C67;
+		display:inline-block;
+		position:absolute;
+	}
+	
+}
+
+.icon-blog,
+.icon-github,
+.icon-douban,
+.icon-zhihu,
+.icon-weibo,
+.icon-plane{
+	&:before{
+		margin-left:16px;
+		font-size:17px;
+	}
+}
+
+.icon-link,
+.icon-habit{
+	width:42px;
+	height:42px;
+	line-height:42px;
+	&:before{
+		font-size:42px;
+		color:#002C67;
+		display:absolute;
+		display:inline-block;
+	}
+}
+
+// .related-links__title span,
+// .habits-content__title span{
+// 	margin-left:
+// }
+
+.section__level3--title{
+	margin-left:55px;
+}
+
+.habits__items i,
+.habits__items span{
+	font-size:28px;
+	margin-right:25px;
+	margin-left:0;
+}
+
+.highlight-string li i{
+	font-family: $high-light-fontfamily;
+	font-weight:bold;
+	color: $highlight-i;
+	margin-left:2px;
+	margin-right:2px;
+	font-style:normal;
+}
+
+.education-school p i{
+	font-family:'Times New Roman';
+}

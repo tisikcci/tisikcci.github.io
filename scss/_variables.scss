@@ -1,0 +1,35 @@
+//font-family
+$font-family: 'Helvetica Neue','Times New Roman', Helvetica, STHeiti, Arial, 微软雅黑, SimSun, sans-serif, 'iconfont' !important;
+$high-light-fontfamily: Arial;
+
+//font-size
+$body-font-size: 16px;
+$h2-font-size:   72px;
+$h3-font-size:   29px;
+$h4-font-size:   19px;
+$contact-info-fontize: 28px;
+
+//background-color
+$common-color1: #002C67;
+$common-color2: #fff;
+
+$body-bgcolor: #e0e0e0;
+$public-container-bgcolor: $common-color2;
+$public-header-bgcolor: $common-color1;
+$public-header-color: $common-color2;
+
+//margin
+$hr-margin: 10px 0;
+
+//line-height
+$body-line-height: 1.8;
+
+//list-style
+$front-demo-liststyle: circle;
+$skill-liststyle:      circle;
+
+//highlight-i
+$highlight-i: $common-color1;
+
+//border
+$hr-border: 3px solid #002C67;
